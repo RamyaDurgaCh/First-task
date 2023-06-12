@@ -39,7 +39,6 @@ public class TaskController {
             System.out.println("response  3" + response.getBody());
             String myobj = response.getBody().toString();
             return myobj;
-            // System.out.println("the weather updates today are "+myobj);
         } catch (Exception e) {
             e.printStackTrace();
         }
